@@ -1,5 +1,5 @@
 #ifndef __WIN32
-#define clientdll __declspec(dllimport) void __stdcall LoadLibrary("client.dll")
+#define clientdll __declspec(dllimport) void* __stdcall LoadLibrary("client.dll")
 #define engine2dll __declspec((dllimport("engine2.dll"))
 #elif __GNUC__
 #define clientdylib __attribute__(visibility("client.dynalib"))
