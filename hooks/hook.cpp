@@ -16,6 +16,7 @@ public:
     CSource2Client* Get();
 };
 
-int main() {
- CSource2Client* clientid = std::string("Source2Client002");
+CSource2Client*::Get() {
+ const clientid = std::string("Source2Client002");
+ return clientid;
 }
